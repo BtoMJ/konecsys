@@ -1,0 +1,153 @@
+.dashboard-container{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/****************** NAV BAR **************************/
+
+.dashboard-container nav{
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #392467;
+}
+
+.dashboard-container nav .logo-dasboard{
+    width: 60%;
+    display: flex;
+    /* border: thin dotted #A367B1; */
+}
+
+.dashboard-container nav img{
+    width: 220px;
+    margin-left: 5rem;
+}
+
+.dashboard-container nav .user-container{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    /* border: thin dotted #FFF; */
+}
+
+.dashboard-container nav .user-container .select-autopista select{
+    padding: 5px 15px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.dashboard-container nav .user-container .select-autopista select:focus{
+    outline: none;
+    border: 2px solid #A367B1;
+}
+
+.dashboard-container nav .user-container .info-user{
+    display: flex;
+}
+
+.dashboard-container nav .sesion-container{
+    width: 10%;
+}
+
+.dashboard-container nav .user-container{
+    display: flex;
+    color: #FFF;
+}
+
+.dashboard-container nav .user-container h2{
+    margin-bottom: -10px;
+}
+
+.dashboard-container nav .user-container span{
+    color: #A367B1;
+}
+
+.photo-user{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin: 0 20px;
+    background: url(../../assets/user.jpg);
+    background-position: center center;
+    background-size: contain;
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, .5);
+}
+
+.sesion-container{
+    color: #FFF;
+    font-size: 2rem;
+}
+
+.sesion-container svg{
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+
+.sesion-container svg:hover{
+    color: #A367B1;
+    transform: scale(1.2);
+}
+
+
+/****************** CLIENT **************************/
+
+.dashboard-container section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.left-navbar{
+    width: 3vw;
+    height: 100vh;
+    padding: 10rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.7rem;
+    color: #FFF;
+    background-color: #A367B1;
+}
+
+.left-navbar .icon{
+    cursor: pointer;
+    transition: .5s ease-in;
+}
+
+.left-navbar .icon:hover{
+    color: #392467;
+    transform: scale(1.2);
+    /* filter: drop-shadow(0 5px 10px rgba(0,0,0, .5)); */
+}
+
+.call-history,
+.client-info{
+    width: 48.5vw;
+    height: 100vh;
+}
+
+.call-history{
+    background-color: #22222220;
+}
+
+
+
+
+/****************** FOOTER **************************/
+
+.dashboard-container footer{
+    background-color: #392467;
+    color: #A367B1;
+}

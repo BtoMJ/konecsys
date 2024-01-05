@@ -1,0 +1,68 @@
+.login-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+    /* background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%); */
+}
+
+.wave-container-left{
+    width: 30%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    /* border: thin dotted #000000; */
+}
+
+.wave-container-right{
+    width: 30%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    /* border: thin dotted #ff0000; */
+}
+
+.wave-container-left img{
+    height: 100vh;
+    position: relative;
+    left: -20px;
+    /* border: thin dotted #ff0000; */
+}
+
+.wave-container-right img{
+    height: 100vh;
+    position: relative;
+    right: -20px;
+}
+
+.form-container{
+    width: 40%;
+    height: 100vh;
+    /* border: thin dotted #0011ff; */
+}
+
+.form{
+    width: 60%;
+    width: 350px;
+    height: 550px;
+    border-radius: 15px;
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+
+.wave{
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    width: 60%;
+    background: url(../../assets/waveL.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
